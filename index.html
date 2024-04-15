@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Descuento</title>
 </head>
 <body>
-    <!--se debe de introducir mediante inputs la distancia y tiempo y mostrar el resultado en un div-->
-    <input  type="number" id="distancia" placeholder="distancia">
-    <input  type="number" id="tiempo" placeholder="tiempo">
-    <button id="velocidad">velocidad Final</button>
-    <div id="finalvelocity"></div>
+    <input type="number" id="precio" placeholder="Precio">
+    <select id="descuento">
+        <option value="10">10%</option>
+        <option value="15">15%</option>
+        <option value="20">20%</option>
+        <option value="30">30%</option>
+        <option value="35">35%</option>
+        <option value="50">50%</option>
+    </select>
+    <button id="btnCalcular">Calcular</button>
+    <label id="precioFinal"></label>
 </body>
 <script src="java.js"></script>
 </html>
